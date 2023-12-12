@@ -1,0 +1,200 @@
+
+.contenedor-formulario{
+    position: fixed;
+    right: 3%;
+    bottom: 50%;
+    width: 280px;
+    height: auto;
+    border-radius: 0px 0px 10px 10px;
+   
+}
+
+.row-formulario{
+    width: 90%;
+    height: 280px;
+    margin: 0px auto;
+}
+
+
+.encabezado-formulario{
+    width: 260px;
+    height: 120px;
+    background-color: #27d974;
+    border-radius: 10px;
+    
+}
+
+.encabezado-formulario .titulo_chat{
+    width: 90%;
+    margin: 0px auto;
+    height: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo_chat h3 {
+    margin: 0;
+    font-size: 12px;
+    color: #fff;
+}
+.titulo_chat img{
+   width:40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+
+.asesor{
+    width: 260px;
+    height: 85px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.img-asesor {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asesor img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.asesor .txt-asesor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 40px;
+    width: 50%;
+    position: relative; 
+    left: -20px;
+
+}
+
+.asesor .txt-asesor small{
+    color: #5c5b5b;
+    font-size: 12px;
+}
+
+.asesor .txt-asesor p{
+    margin: 0px !important;
+    padding: 0px !important;
+    color: #5c5b5b;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.online{
+    font-size: 10px;
+    color: #27d974;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content-formulario{
+    width: 260px;
+    height: 340px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.content-formulario form {
+    width: 90%;
+    margin: 0px auto;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom:25px;
+
+}
+
+.content-formulario form .dato{
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.contenedor-formulario form .dato input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.contenedor-formulario form .dato input::placeholder{
+    color: #5c5b5b7e !important;
+}
+
+.enviar{
+    width: 100%;
+    height: 45px;
+    background-color: #27d974 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    font-weight: 700;
+    border: 1px solid #27d974  !important;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: -60px;
+}
+
+.error{
+    color: red;
+}
+
+
+
+.whatsapp-btn{
+    background-color: #27d974;
+    width: 262px;
+    height: 45px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+}
+
+.whatsapp-btn p  {
+    color: #fff;
+    margin: 0px 0px 0px 5px;
+    font-weight: 700;
+}
+
+.whatsapp-btn img {
+    width: 40px;
+    height: 40px;
+}
+
